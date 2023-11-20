@@ -8,7 +8,7 @@
         <li>
           <a
             class="credits"
-            href="https://www.linkedin.com/in/russell-numo-0b0b3a1b0/"
+            href="https://www.linkedin.com/in/russell-numo-a37810231"
             target="_blank">LinkedIn</a
           >
         </li>
