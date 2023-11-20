@@ -9,41 +9,41 @@ const projects = [
     },
     images: [
       {
-        src: "/src/lib/images/plantswap-identifier/home.png",
+        src: "/images/plantswap-identifier/home.png",
         alt: "Plantswap Identifier home page",
       },
       {
-        src: "/src/lib/images/plantswap-identifier/plants.png",
+        src: "/images/plantswap-identifier/plants.png",
         alt: "Plantswap Identifier plants page",
       },
       {
-        src: "/src/lib/images/plantswap-identifier/capture.png",
+        src: "/images/plantswap-identifier/capture.png",
         alt: "Plantswap Identifier capture page",
       },
       {
-        src: "/src/lib/images/plantswap-identifier/selection.png",
+        src: "/images/plantswap-identifier/selection.png",
         alt: "Plantswap Identifier selection page",
       },
     ],
     imagesMobile: [
       {
-        src: "/src/lib/images/plantswap-identifier/plantswap-mobile-home.png",
+        src: "/images/plantswap-identifier/plantswap-mobile-home.png",
         alt: "Plantswap Identifier mobile home page",
       },
       {
-        src: "/src/lib/images/plantswap-identifier/plantswap-mobile-plants.png",
+        src: "/images/plantswap-identifier/plantswap-mobile-plants.png",
         alt: "Plantswap Identifier mobile plants page",
       },
       {
-        src: "/src/lib/images/plantswap-identifier/plantswap-mobile-select.png",
+        src: "/images/plantswap-identifier/plantswap-mobile-select.png",
         alt: "Plantswap Identifier mobile capture page",
       },
       {
-        src: "/src/lib/images/plantswap-identifier/plantswap-mobile-selected.png",
+        src: "/images/plantswap-identifier/plantswap-mobile-selected.png",
         alt: "Plantswap Identifier mobile selection page",
       },
     ],
-    video: "/src/lib/videos/plantswap-identifier/plantswap.mov",
+    video: "/videos/plantswap-identifier/plantswap.mov",
     description:
       "Online webapplication that identifies plants based on a photo.",
     status: true,
@@ -59,33 +59,33 @@ const projects = [
     },
     images: [
       {
-        src: "/src/lib/images/sync-music/syncmusic-home.png",
+        src: "/images/sync-music/syncmusic-home.png",
         alt: "SyncMusic home page",
       },
       {
-        src: "/src/lib/images/sync-music/syncmusic-explore.png",
+        src: "/images/sync-music/syncmusic-explore.png",
         alt: "SyncMusic room page",
       },
       {
-        src: "/src/lib/images/sync-music/syncmusic-create.png",
+        src: "/images/sync-music/syncmusic-create.png",
         alt: "SyncMusic mobile room page",
       },
       {
-        src: "/src/lib/images/sync-music/syncmusic-room.png",
+        src: "/images/sync-music/syncmusic-room.png",
         alt: "SyncMusic mobile room page",
       },
     ],
     imagesMobile: [
       {
-        src: "/src/lib/images/sync-music/syncmusic-mobile-home.png",
+        src: "/images/sync-music/syncmusic-mobile-home.png",
         alt: "SyncMusic mobile home page",
       },
       {
-        src: "/src/lib/images/sync-music/syncmusic-mobile-explore.png",
+        src: "/images/sync-music/syncmusic-mobile-explore.png",
         alt: "SyncMusic mobile room page",
       },
       {
-        src: "/src/lib/images/sync-music/syncmusic-mobile-room.png",
+        src: "/images/sync-music/syncmusic-mobile-room.png",
         alt: "SyncMusic mobile room page",
       },
     ],
