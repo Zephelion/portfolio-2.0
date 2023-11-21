@@ -14,6 +14,10 @@
   });
 </script>
 
+<svelte:head>
+  <title>Projects - Russell Numo</title>
+</svelte:head>
+
 <Navigation />
 
 {#if project}
