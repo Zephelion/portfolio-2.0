@@ -90,7 +90,11 @@
         </li>
         <li class="icon">
           <Icon name="agile" width="4rem" />
-          <span class="title">agile</span>
+          <span class="title">Agile</span>
+        </li>
+        <li class="icon">
+          <Icon name="problem" width="4rem" />
+          <span class="title">Problem solving</span>
         </li>
       </ul>
     </div>
@@ -126,6 +130,8 @@
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
   }
 
   .icon {

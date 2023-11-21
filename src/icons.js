@@ -12,6 +12,7 @@ import nodeJs from "./lib/icons/node-js.svg?raw";
 import sass from "./lib/icons/sass.svg?raw";
 import svelte from "./lib/icons/svelte.svg?raw";
 import agile from "./lib/icons/agile.svg?raw";
+import problem from "./lib/icons/problem.svg?raw";
 
 export default {
   html,
@@ -28,4 +29,5 @@ export default {
   sass,
   svelte,
   agile,
+  problem,
 };
