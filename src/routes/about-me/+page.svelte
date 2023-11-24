@@ -21,84 +21,84 @@
         the course Communication Multimedia Design.
       </p>
     </div>
+    <div class="skills-container about">
+      <div class="frontend-skills">
+        <h2 class="skills-heading">Frontend</h2>
+        <ul class="skills">
+          <li class="icon">
+            <Icon name="html" width="4rem" />
+            <span class="title">Html</span>
+          </li>
+          <li class="icon">
+            <Icon name="css" width="4rem" />
+            <span class="title">Css</span>
+          </li>
+          <li class="icon">
+            <Icon name="javascript" width="4rem" />
+            <span class="title">Javascript</span>
+          </li>
+          <li class="icon">
+            <Icon name="react" width="4rem" />
+            <span class="title">React</span>
+          </li>
+          <li class="icon">
+            <Icon name="svelte" width="4rem" />
+            <span class="title">Svelte</span>
+          </li>
+          <li class="icon">
+            <Icon name="sass" width="4rem" />
+            <span class="title">Sass</span>
+          </li>
+        </ul>
+      </div>
+      <div class="backend-skills">
+        <h2 class="skills-heading">Backend</h2>
+        <ul class="skills">
+          <li class="icon">
+            <Icon name="nodeJs" width="4rem" />
+            <span class="title">Node.js</span>
+          </li>
+          <li class="icon">
+            <Icon name="nextJs" width="4rem" />
+            <span class="title">Next.js</span>
+          </li>
+          <li class="icon">
+            <Icon name="firebase" width="4rem" />
+            <span class="title">Firebase</span>
+          </li>
+          <li class="icon">
+            <Icon name="mongodb" width="4rem" />
+            <span class="title">MongoDB</span>
+          </li>
+          <li class="icon">
+            <Icon name="laravel" width="4rem" />
+            <span class="title">Laravel</span>
+          </li>
+        </ul>
+      </div>
+      <div class="general-skills">
+        <h2 class="skills-heading">General</h2>
+        <ul class="skills">
+          <li class="icon">
+            <Icon name="git" width="4rem" />
+            <span class="title">Git</span>
+          </li>
+          <li class="icon">
+            <Icon name="adobexd" width="4rem" />
+            <span class="title">AdobeXD</span>
+          </li>
+          <li class="icon">
+            <Icon name="agile" width="4rem" />
+            <span class="title">Agile</span>
+          </li>
+          <li class="icon">
+            <Icon name="problem" width="4rem" />
+            <span class="title">Problem solving</span>
+          </li>
+        </ul>
+      </div>
+    </div>
   </Fade>
-  <div class="skills-container about">
-    <div class="frontend-skills">
-      <h2 class="skills-heading">Frontend</h2>
-      <ul class="skills">
-        <li class="icon">
-          <Icon name="html" width="4rem" />
-          <span class="title">Html</span>
-        </li>
-        <li class="icon">
-          <Icon name="css" width="4rem" />
-          <span class="title">Css</span>
-        </li>
-        <li class="icon">
-          <Icon name="javascript" width="4rem" />
-          <span class="title">Javascript</span>
-        </li>
-        <li class="icon">
-          <Icon name="react" width="4rem" />
-          <span class="title">React</span>
-        </li>
-        <li class="icon">
-          <Icon name="svelte" width="4rem" />
-          <span class="title">Svelte</span>
-        </li>
-        <li class="icon">
-          <Icon name="sass" width="4rem" />
-          <span class="title">Sass</span>
-        </li>
-      </ul>
-    </div>
-    <div class="backend-skills">
-      <h2 class="skills-heading">Backend</h2>
-      <ul class="skills">
-        <li class="icon">
-          <Icon name="nodeJs" width="4rem" />
-          <span class="title">Node.js</span>
-        </li>
-        <li class="icon">
-          <Icon name="nextJs" width="4rem" />
-          <span class="title">Next.js</span>
-        </li>
-        <li class="icon">
-          <Icon name="firebase" width="4rem" />
-          <span class="title">Firebase</span>
-        </li>
-        <li class="icon">
-          <Icon name="mongodb" width="4rem" />
-          <span class="title">MongoDB</span>
-        </li>
-        <li class="icon">
-          <Icon name="laravel" width="4rem" />
-          <span class="title">Laravel</span>
-        </li>
-      </ul>
-    </div>
-    <div class="general-skills">
-      <h2 class="skills-heading">General</h2>
-      <ul class="skills">
-        <li class="icon">
-          <Icon name="git" width="4rem" />
-          <span class="title">Git</span>
-        </li>
-        <li class="icon">
-          <Icon name="adobexd" width="4rem" />
-          <span class="title">AdobeXD</span>
-        </li>
-        <li class="icon">
-          <Icon name="agile" width="4rem" />
-          <span class="title">Agile</span>
-        </li>
-        <li class="icon">
-          <Icon name="problem" width="4rem" />
-          <span class="title">Problem solving</span>
-        </li>
-      </ul>
-    </div>
-  </div>
 </CenterLayout>
 <Footer />
 

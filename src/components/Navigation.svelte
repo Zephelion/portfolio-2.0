@@ -1,16 +1,5 @@
 <script>
-  import { onMount } from "svelte";
-  import { isActive } from "./../lib/routeHelper.js";
-
-  let isProjects;
-  let isAbout;
-  let isContact;
-
-  onMount(() => {
-    isProjects = isActive("/projects");
-    isAbout = isActive("/about-me");
-    isContact = isActive("/contact");
-  });
+  import { page } from "$app/stores";
 </script>
 
 <div class="nav-bar">
@@ -20,13 +9,25 @@
   <div>
     <ul class="links-container">
       <li>
-        <a class="link" class:active={isProjects} href="/projects">Projects</a>
+        <a
+          class="link"
+          class:active={$page.url.pathname.includes("/project")}
+          href="/projects">Projects</a
+        >
       </li>
       <li>
-        <a class="link" class:active={isAbout} href="/about-me">About</a>
+        <a
+          class="link"
+          class:active={$page.url.pathname.includes("/about-me")}
+          href="/about-me">About</a
+        >
       </li>
       <li>
-        <a class="link" class:active={isContact} href="/contact">Contact</a>
+        <a
+          class="link"
+          class:active={$page.url.pathname.includes("/contact")}
+          href="/contact">Contact</a
+        >
       </li>
     </ul>
   </div>
