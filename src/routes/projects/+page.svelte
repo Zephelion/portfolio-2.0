@@ -2,6 +2,7 @@
   import Projects from "../../data/Projects";
   import Navigation from "../../components/Navigation.svelte";
   import Project from "../../components/Project.svelte";
+  import Footer from "../../components/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -18,6 +19,7 @@
     {/each}
   </ul>
 </section>
+<Footer />
 
 <style lang="scss">
   @import "../../styles/global.scss";
@@ -30,5 +32,6 @@
 
   .base {
     padding: 1rem;
+    min-height: 90vh;
   }
 </style>
