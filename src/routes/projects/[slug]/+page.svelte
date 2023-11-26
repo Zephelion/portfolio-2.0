@@ -57,6 +57,7 @@
       </div>
       <div class="description-container">
         <p class="description">{project.description}</p>
+        <a href={project.link} target="blank">Link to repository</a>
       </div>
     </div>
     {#if project.images}
