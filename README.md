@@ -2,5 +2,5 @@
 
 ## Description
 
-Newly and improved portfolio build with sveltekit. Needs some optimization but for now it will give you a rough idea of who I am.
+Newly and improved portfolio build with sveltekit. Still in progress but it will be more complete over time.
 ![Russell Numo](images/russellnumo.png)
