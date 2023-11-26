@@ -68,8 +68,15 @@
         {/each}
       </div>
     {/if}
-    <div class="video-container">
-      <video src={project.video} autoplay loop muted playsinline />
+    <div class={`video-container ${project.class}`}>
+      <video
+        class={project.classImage}
+        src={project.video}
+        autoplay
+        loop
+        muted
+        playsinline
+      />
     </div>
     {#if project.imagesMobile}
       <h2 class="mobile-header">MOBILE</h2>
@@ -169,5 +176,16 @@
 
   .mobile {
     width: 14rem;
+  }
+
+  .max-width-30 {
+    /* max-width: 30rem; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .w-30 {
+    width: 30rem;
   }
 </style>

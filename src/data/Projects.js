@@ -96,9 +96,38 @@ const projects = [
   {
     title: "Rijksmuseum",
     slug: "rijksmuseum",
+    projectTags: {
+      role: ["Frontend Developer", "Designer"],
+      language: "Javascript",
+      platform: "Mobile",
+    },
+    images: [
+      {
+        src: "/images/rijksmuseum/rijksmuseum-home.png",
+        alt: "Rijksmuseum home page",
+      },
+      {
+        src: "/images/rijksmuseum/rijksmuseum-detail.png",
+        alt: "Rijksmuseum detail page",
+      },
+    ],
+    imagesMobile: [
+      {
+        src: "/images/rijksmuseum/rijksmuseum-mobile-home.png",
+        alt: "Rijksmuseum mobile home page",
+      },
+      {
+        src: "/images/rijksmuseum/rijksmuseum-mobile-detail.png",
+        alt: "Rijksmuseum mobile search page",
+      },
+    ],
+    video: "/videos/rijksmuseum/rijksmuseum.mov",
     role: ["Frontend Developer", "Designer"],
-    description: "This is a description of project 3",
+    description:
+      "Mobile application where you can search for various art pieces within the Rijksmuseum.",
     link: "https://github.com/Zephelion/web-app-from-scratch-2223",
+    class: "max-width-30",
+    classImage: "w-30",
   },
 ];
 
