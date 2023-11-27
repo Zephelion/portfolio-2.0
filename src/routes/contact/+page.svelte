@@ -10,6 +10,9 @@
 <Navigation />
 <section class="base">
   <h1 class="page-title">Contact me</h1>
+  <h2 class="form-title">
+    Want to connect? Fill in the form below or just call me.
+  </h2>
   <div class="contact-container">
     <form method="POST" action="/contact">
       <div class="form-field">
@@ -53,13 +56,16 @@
 
       <button class="submit" type="submit">Submit</button>
     </form>
-    <!-- <div class="contact-details">
-      <h3>Information</h3>
+    <div class="contact-details">
+      <h3 class="contact-heading">Socials</h3>
       <a class="link" href="tel:+31636096943">+31636096943</a>
       <a class="link" href="mailto:russellnumo@outlook.com"
         >russellnumo@outlook.com</a
       >
-    </div> -->
+      <a class="link" target="blank" href="https://wa.me/31636096943"
+        >Whatsapp</a
+      >
+    </div>
   </div>
 </section>
 <Footer />
@@ -91,6 +97,13 @@
 
   .contact-container {
     display: flex;
+    padding: 2rem;
+    gap: 24rem;
+  }
+
+  .form-title {
+    font-weight: 200;
+    padding: 2rem;
   }
 
   .form-heading {
@@ -140,9 +153,15 @@
     }
   }
 
+  .contact-heading {
+    font-size: 3rem;
+    font-weight: 200;
+  }
+
   .contact-details {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
   }
 
   ::placeholder {
