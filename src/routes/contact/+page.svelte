@@ -156,6 +156,7 @@
   .contact-heading {
     font-size: 3rem;
     font-weight: 200;
+    border-bottom: 0.05rem solid black;
   }
 
   .contact-details {
