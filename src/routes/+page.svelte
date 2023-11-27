@@ -6,10 +6,16 @@
 
   const fadeLandingOut = () => {
     showLandingComponent = false;
-    console.log("fadeLandingOut");
   };
 </script>
 
+<svelte:head>
+  <title>Russell Numo</title>
+  <meta
+    name="description"
+    content="Emerging full stack developer with a passion for building web applications."
+  />
+</svelte:head>
 {#if showLandingComponent}
   <Landing on:clickLanding={fadeLandingOut} />
 {:else}
