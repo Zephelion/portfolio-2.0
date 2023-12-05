@@ -11,7 +11,8 @@
 <section class="base">
   <h1 class="page-title">Contact me</h1>
   <h2 class="form-title">
-    Want to connect? Fill in the form below or just call me.
+    Want to connect? Fill in the form below or just call me (form functionality
+    still in progres...).
   </h2>
   <div class="contact-container">
     <form method="POST" action="/contact">
